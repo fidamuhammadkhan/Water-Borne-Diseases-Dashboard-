@@ -1,5 +1,4 @@
 flask-heroku
-pycaret.regression
 pycaret
 pickle
 alembic==1.4.1
