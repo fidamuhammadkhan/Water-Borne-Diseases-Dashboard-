@@ -9,7 +9,7 @@ app = Flask(__name__, template_folder='templates')
 model=load_model('deployment_28042020')
 cols=['age','sex','bmi','children','smoker','region']
 
-@app.route('host=waterborne-pak.herokuapp.com ')
+@app.route('waterborne-pak.herokuapp.com')
 def home():
     return render_template("home.html")
 
