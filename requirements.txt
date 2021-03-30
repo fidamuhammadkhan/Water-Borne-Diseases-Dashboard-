@@ -1,4 +1,3 @@
-flask
 flask-heroku
 pycaret.regression
 pycaret
