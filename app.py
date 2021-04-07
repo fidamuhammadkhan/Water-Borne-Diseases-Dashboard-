@@ -6,8 +6,8 @@ import pickle
 import numpy as np
 app = Flask(__name__, template_folder='templates')
 
-model=load_model('deployment_28042020')
-cols=['age','sex','bmi','children','smoker','region']
+model=load_model('malyria_classification_fold5_28042021')
+cols=['MRNO', 'AGE', 'GENDER', 'DISTRICT', 'TEHSIL', 'REPORT_VERIFIED','CPT_ID', 'RESULT_VALUE', 'CPT_ID.1']
 
 @app.route('/')
 def home():
